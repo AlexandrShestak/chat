@@ -1,7 +1,6 @@
 .idea/
 .gradle/
 target/
-gradle
 *.iml
 *.class
 *.war
