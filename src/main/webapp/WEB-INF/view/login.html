@@ -7,45 +7,39 @@
 </head>
 <body background="../images/whiteFont.jpg" style="background-size: 100%">
 <div style="padding:40px 0px 40px 0px">
-<div class="container">
-    <div class="row col-md-7">
-        <p>
-            This is a very typical app structure that I see. On the surface, it seems to make a lot of sense and is very similar to a lot of MVC frameworks. We have a separation of concerns, controllers have their own folder, views have their own folder, external libraries have their own folder, etc.
+    <div class="container">
+        <div class="row col-md-7">
+            <h2 class="text-center tex">Video chat roulette</h2>
+            <p>
+                It is conceptual new video chat roulette. <br>
+                We will try to make this site free from abnormal behavior to make chat free. To try to make word better
+                and kinder. On this site people can fearlessly make new friends. Discuss different topics.
+            </p>
+        </div>
+        <div class="col-lg-offset-1 row col-md-4">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputEmail" class="col-sm-3 control-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="col-sm-3 control-label">Password</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-9">
+                        <button type="submit" class="btn btn-info btn-block">Sign in</button>
+                    </div>
+                </div>
+            </form>
+        </div>
 
-            The main problem with this directory structure is not apparent when you are working with only a handful of views and controllers. In fact, it is preferable to follow this approach when writing a tutorial for example or for smaller application. This structure makes it very easy for the reader to visualize and conceptualize the concepts you are covering.
-
-            This approach falls apart, however, when you start adding additional functionality to the app. Once you have more than 10 controllers, views and directives, you are going to have to do a lot of scrolling in your directory tree to find the required files.
-
-            For example, say you are building a blog with Angular. You decide that you would like to add the author information to the bottom of each article. Well now, you have to find the blog directive, controller, potentially the service and finally the view before you can even look at the whole picture and start making edits.
-
-            Say a few months down the line, you are adding additional features to your blog and want to rename a particular feature, again it’s a hunt throughout the directory structure to find the affected files, edit them, make sure they are all in sync, and then make the changes.
-
-        </p>
     </div>
-    <div class="col-lg-offset-1 row col-md-4">
-        <form class="form-horizontal">
-            <div class="form-group">
-                <label for="inputEmail" class="col-sm-3 control-label">Email</label>
-                <div class="col-sm-9">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="inputPassword" class="col-sm-3 control-label">Password</label>
-                <div class="col-sm-9">
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-offset-3 col-sm-9">
-                    <button type="submit" class="btn btn-info btn-block">Sign in</button>
-                </div>
-            </div>
-        </form>
-    </div>
-
 </div>
-    <div>
 
 </body>
 </html>
