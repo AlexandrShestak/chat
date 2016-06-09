@@ -6,3 +6,5 @@ target/
 *.war
 *.jar
 *.ear
+src/main/webapp/WEB-INF/chatApplication/node_modules/
+src/main/webapp/WEB-INF/chatApplication/typings/
